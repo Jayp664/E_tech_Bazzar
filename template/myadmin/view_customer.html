@@ -1,0 +1,36 @@
+{% extends 'myadmin/comman/layout.html' %} {% block content %}
+
+<div class="row p-4">
+  <div class="col-12">
+    <div class="bg-light rounded h-100 p-4">
+      <h5 class="mb-4">View All Customer</h5>
+      <div class="table-responsive">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Id</th>
+              <th scope="col">Email</th>
+              <th scope="col">Phone</th>
+              <th scope="col">Registration Id</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>rohan2710@gmail.com</td>
+              <td>12345678910</td>
+              <td>1</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>jay2710@gmail.com</td>
+                <td>123478910</td>
+                <td>2</td>
+              </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

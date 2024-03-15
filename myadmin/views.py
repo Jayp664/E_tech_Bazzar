@@ -7,7 +7,7 @@ def layout(request):
 
 def dash(request):
     contex = {}
-    return render(request,'myadmin/dashboard.html',contex)
+    return render(request,'myadmin/dash.html',contex)
 
 def common_form(request):
     contex = {}
@@ -30,9 +30,26 @@ def common_table(request):
 
 def all_cat(request):
     contex = {}
-    return render(request, 'myadmin/all_cat',contex)
+    return render(request, 'myadmin/all_cat.html',contex)
 
 
 def all_subcat(request):
     contex = {}
     return render(request, 'myadmin/all_subcat.html',contex)
+
+def view_customer(request):
+    contex = {}
+    return render(request,'myadmin/view_customer.html',contex)
+
+
+def view_order(request):
+    contex = {}
+    return render(request,'myadmin/view_order.html',contex)
+
+def payment(request):
+    contex = {}
+    return render(request,'myadmin/payment.html',contex)
+
+def signin(request):
+    contex = {}
+    return render(request,'myadmin/signin.html',contex)

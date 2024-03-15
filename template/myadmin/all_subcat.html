@@ -1,0 +1,33 @@
+{% extends 'myadmin/comman/layout.html' %} {% block content %}
+
+<div class="row p-4">
+  <div class="col-12">
+    <div class="bg-light rounded h-100 p-4">
+      <h5 class="mb-4">Responsive Table</h5>
+      <div class="table-responsive">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Id</th>
+              <th scope="col">Category Name</th>
+              <th scope="col">Category Id</th>
+
+              <th scope="col">Edit</th>
+              <th scope="col">Delete</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>TV</td>
+              <td>1</td>
+              <td>Edit</td>
+              <td>Delete</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

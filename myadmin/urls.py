@@ -25,5 +25,10 @@ urlpatterns = [
     path('add_cat', views.add_categories, name='add_cat'),
     path('add_subcat', views.add_subcat, name='add_subcat'),
     path('common_table', views.common_table, name='common_table'),
-    path('all_cat', views.all_cat, name='all_cat')
+    path('all_subcat', views.all_subcat, name='all_subcat'),
+    path('all_cat', views.all_cat, name='all_cat'),
+    path('view_customer', views.view_customer, name='view_customer'),
+    path('view_order', views.view_order, name='view_order'),
+    path('payment', views.payment, name='payment'),
+    path('signin', views.signin, name='signin'),
 ]
