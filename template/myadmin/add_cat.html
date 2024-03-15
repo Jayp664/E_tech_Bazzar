@@ -1,0 +1,25 @@
+{% extends 'myadmin/comman/layout.html' %} {% block content %}
+<!-- <h1>helloo</h1> -->
+<div class="container-fluid pt-4 px-4">
+  <div class="row g-4">
+    <div class="col-sm-12 col-xl-12">
+      <div class="bg-light rounded h-100 p-4">
+        <h4 class="mb-4">Add Categories</h4>
+        <form class="col-sm-8">
+          <div class="row mb-3">
+            <label for="cat_name" class="col-sm-4 col-form-label"
+              >Category Name :
+            </label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="cat_name" />
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary col-sm-2 mb-4">
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
